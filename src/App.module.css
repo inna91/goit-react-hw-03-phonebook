@@ -1,0 +1,20 @@
+.container {
+  width: 550px;
+  min-height: 500px;
+  height: auto;
+  border-radius: 5px;
+  margin: 2% auto;
+  box-shadow: 0 9px 50px hsla(20, 67%, 75%, 0.31);
+  padding: 2%;
+  background-image: linear-gradient(-225deg, #e3fdf5 50%, #ffe6fa 50%);
+}
+
+.wrap {
+  margin: 0 auto;
+  text-align: right;
+}
+
+.number {
+  font-size: 14px;
+  font-weight: 700;
+}

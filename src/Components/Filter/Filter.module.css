@@ -1,0 +1,37 @@
+.label {
+  display: block;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.input {
+  background: #fff;
+  color: #333;
+  padding: 14.5px 0px 15px 9px;
+  border-radius: 5px 0px 0px 5px;
+  width: 320px;
+  height: 50px;
+
+  margin-top: 2%;
+  padding: 15px;
+
+  font-size: 20px;
+  color: #010511;
+
+  outline: none;
+  border: none;
+
+  border-radius: 0px 5px 5px 0px;
+  transition: 0.2s linear;
+}
+
+.input::placeholder {
+  font-size: 16px;
+  color: #5e6472;
+  font-style: italic;
+}
+
+.input:focus {
+  transform: translateX(-2px);
+  border-radius: 5px;
+}
